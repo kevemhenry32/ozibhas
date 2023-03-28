@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background: rgb(248, 242, 242);
+}
+
+.col-1 {
+    width: 414px;
+    height: 896px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-family: 'bebas_neueregular';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 45px;
+    line-height: 57.6px;
+    margin-left: 190px;
+    color: #000000;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'bebas_neueregular';
+    font-size: 36px;
+    font-weight: 10px;
+    line-height: 23px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.button {
+    background: rgba(249, 235, 235, 0.61);
+    width: 47px;
+    height: 43px;
+    border-style: none;
+    border-radius: 8px;
+    margin-top: -45px;
+    margin-left: 66px;
+}
+
+.butt {
+    font-family: 'bebas_neueregular';
+    background: #7FE0BD;
+    border-radius: 60px;
+    margin: 15px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.butt button {
+    height: 50px;
+    background: #7FE0BD;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 120px;
+    border: #7FE0BD;
+    cursor: pointer;
+    font-family: 'bebas_neueregular';
+}
+
+img {
+    display: inline-block;
+    margin-top: 290px;
+    margin-left: 51.5px;
+}
+
+.container {
+    margin-inline: auto;
+    width: 414px;
+    height: 896px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn {
+    color: black;
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('./fontes/BebasNeue-Regular.woff2') format('woff2'),
+        url('./fontes/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
